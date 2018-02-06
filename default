@@ -1,9 +1,15 @@
 #this is a server block
 server {
-	root /mnt/Ice&FireAPI;
+	listen 80;
+        server_name  localhost;
+        root  /mnt/Ice&FireAPI;
+        index index.html;
 
 	#custom 404 error page
 	error_page 404 /404.html;
+	location  /404.html {
+    		internal;
+	}
 	
 	#custom 500 error page
 	error_page 500 /500.html;
