@@ -1,4 +1,4 @@
-#this is a serer block
+#this is a server block
 server {
 	root /mnt/Ice&FireAPI;
 
