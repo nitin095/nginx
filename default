@@ -1,0 +1,10 @@
+#this is a serer block
+server {
+	root /mnt/Ice&FireAPI;
+
+	#custom 404 error page
+	error_page 404 /404.html;
+	
+	#custom 500 error page
+	error_page 500 /500.html;
+}
